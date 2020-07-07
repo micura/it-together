@@ -383,7 +383,7 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto; }
 
 .img-thumbnail {
@@ -8125,7 +8125,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   margin: 0;
   font-family: "Work Sans", Arial, sans-serif;
-  background-color: #dafffd;
+  background-color: #61ff3f2b;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 500;
@@ -8966,8 +8966,10 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
-  font-size: 16px;
-  background: #421b9b; }
+  background: #421b9b; 
+  position: relative;
+  bottom: 0;
+  width: 100%;}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
