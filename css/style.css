@@ -8123,13 +8123,26 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+
+  background-color: #61ff3f2b;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 500;}
+/*
   margin: 0;
   font-family: "Work Sans", Arial, sans-serif;
   background-color: #61ff3f2b;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 500;
-  color: #000000; }
+  color: #000000; }*/
+
+
+
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8966,10 +8979,9 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
-  background: #421b9b; 
+  background: #315eff; 
   position: relative;
-  bottom: 0;
-  width: 100%;}
+}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
