@@ -78,6 +78,22 @@ a:hover {
     padding: 2em 0;
 }
 
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.grid-container {
+    /*text-align: center;*/
+    display: grid;
+    justify-content: center;    
+    grid-template-columns: 25% 25% 25%;
+}
+
+.grid-item4 {
+    grid-column: 1 / 4;
+    text-align: center;*/
+}
+
 /* Card */
 .card {
     border-radius: 10px;
