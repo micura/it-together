@@ -70,6 +70,19 @@ a:hover {
     z-index: 3; 
 }
 
+.flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    gap: 12px;
+}
+
+/* Header */
+.header-text {
+    color: #315eff;
+    font-size: 60px;
+}
 
 /* Footer */
 .ftco-footer {
@@ -83,17 +96,13 @@ a:hover {
 }
 
 .grid-container {
-    /*text-align: center;*/
     display: grid;
-    justify-content: center;    
-    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
 }
 
-.grid-item4 {
-    grid-column: 1 / 4;
-    text-align: center;*/
+.grid-item-copyright {
+    text-align: center;
 }
-
 /* Card */
 .card {
     border-radius: 10px;
@@ -107,15 +116,36 @@ a:hover {
     color: white;
 }
 
-.flex-container {
-    display: inline-flex;
-    flex-wrap: wrap;
-    /* grid-gap: 10px; */
-    /* background-color: #2196F3; */
-    /* padding: 10px; */
-    gap: 12px;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .flex-item {
+        flex-basis: 100%
+    }
 }
 
-.flex-item {
-    flex-basis: 24%
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flex-item {
+        flex-basis: 45%
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .flex-item {
+        flex-basis: 24%
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        
+    }
+
+    .grid-item-copyright {
+        grid-column: 1 / 4;
+        text-align: center;
+    }
 }
