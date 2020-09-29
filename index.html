@@ -15,6 +15,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -46,103 +48,93 @@
       <img class="js-fullheight img-fluid" src="images/undraw_co-working_825n.svg">
       <div class="d-flex align-items-center mx-auto">
         <div class="header-text mt-5">
-          <h1 class="mb-3"><span>IT-Together</span></h1>
+          <h1 class="mb-3 brand-text"><span>IT-Together</span></h1>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="text-center heading-section">
+    <div class="text-center heading-section" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
       <h2>Szolgáltatások</h2>
     </div>
     <div class="flex-container mt-5 mb-5 justify-content-md-center">
-      <div class="flex-item card text-center">
-        <a href="services/1.html">
-          <div class="card-body">
-            <p class="card-text">Weboldal készítés</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-1.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/1.html';">
+        <div class="card-body">
+          <p class="card-text">Weboldal készítés</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-1.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/2.html">
-          <div class="card-body">
-            <p class="card-text">Vállalatirányítási megoldások</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-2.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/2.html';">
+        <div class="card-body">
+          <p class="card-text">Vállalatirányítási megoldások</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-2.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/3.html">
-          <div class="card-body">
-            <p class="card-text">Provisoning és számlázó rendszer</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-3.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/3.html';">
+        <div class="card-body">
+          <p class="card-text">Provisoning és számlázó rendszer</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-3.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/4.html">
-          <div class="card-body">
-            <p class="card-text">Alközponti megoldások</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-4.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/4.html';">
+        <div class="card-body">
+          <p class="card-text">Alközponti megoldások</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-4.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/5.html">
-          <div class="card-body">
-            <p class="card-text">Call, contact center megoldás</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-5.jpg">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/5.html';">
+        <div class="card-body">
+          <p class="card-text">Call, contact center megoldás</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-5.jpg">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/6.html">
-          <div class="card-body">
-            <p class="card-text">IT support</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-6.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/6.html';">
+        <div class="card-body">
+          <p class="card-text">IT Support</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-6.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/7.html">
-          <div class="card-body">
-            <p class="card-text">Kamerarendszer kiépítések</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-7.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/7.html';">
+        <div class="card-body">
+          <p class="card-text">Kamerarendszer kiépítések</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-7.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/8.html">
-          <div class="card-body">
-            <p class="card-text">Hangrögzítő megoldások</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-8.png">
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/8.html';">
+        <div class="card-body">
+          <p class="card-text">Hangrögzítő megoldások</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-8.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/9.html">
-          <div class="card-body">
-            <p class="card-text">Hálózati megoldások</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-9.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/9.html';">
+        <div class="card-body">
+          <p class="card-text">Hálózati megoldások</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-9.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/10.html">
-          <div class="card-body">
-            <p class="card-text">Backup-rendszer kialakítása</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-10.png">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/10.html';">
+        <div class="card-body">
+          <p class="card-text">Backup-rendszer kialakítása</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-10.png">
       </div>
-      <div class="flex-item card text-center">
-        <a href="services/11.html">
-          <div class="card-body">
-            <p class="card-text">Pályázati támogatás</p>
-          </div>
-          <img class="card-img-bottom w-75 mx-auto" src="images/service-11.jpg">
-        </a>
+      <div class="flex-item card text-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+        onclick="location.href='services/11.html';">
+        <div class="card-body">
+          <p class="card-text">Pályázati támogatás</p>
+        </div>
+        <img class="card-img-bottom w-75 mx-auto" src="images/service-11.jpg">
       </div>
     </div>
   </div>
@@ -151,22 +143,23 @@
     <div class="grid-container">
       <div class="grid-item">
         <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Weboldal készítés</a></li>
-          <li><a href="#" class="py-2 d-block">Call, contact center megoldás</a></li>
-          <li><a href="#" class="py-2 d-block">Vállalatirányítási megoldások – ChaRM</a></li>
-          <li><a href="#" class="py-2 d-block">Provisoning és számlázó rendszer – Maverix</a></li>
-          <li><a href="#" class="py-2 d-block">Alközponti megoldások – Asterisk</a></li>
-          <li><a href="#" class="py-2 d-block">Hálózati megoldások - Hálózati eszközök, alközpontok</a></li>
+          <li><a href="services/1.html" class="py-2 d-block">Weboldal készítés</a></li>
+          <li><a href="services/2.html" class="py-2 d-block">Vállalatirányítási megoldások – ChaRM</a></li>
+          <li><a href="services/3.html" class="py-2 d-block">Provisoning és számlázó rendszer – Maverix</a></li>
+          <li><a href="services/4.html" class="py-2 d-block">Alközponti megoldások – Asterisk</a></li>
+          <li><a href="services/5.html" class="py-2 d-block">Call, contact center megoldás</a></li>
+          <li><a href="services/6.html" class="py-2 d-block">IT Support</a></li>
+          
         </ul>
       </div>
 
       <div class="grid-item">
         <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Hangrögzítő megoldások</a></li>
-          <li><a href="#" class="py-2 d-block">Kamerarendszer kiépítések</a></li>
-          <li><a href="#" class="py-2 d-block">Backup-rendszer kialakítása</a></li>
-          <li><a href="#" class="py-2 d-block">Pályázati támogatás</a></li>
-          <li><a href="#" class="py-2 d-block">IT support 5-30 fős cégeknek 10-50 darab eszközzel</a></li>
+          <li><a href="services/7.html" class="py-2 d-block">Kamerarendszer kiépítések</a></li>
+          <li><a href="services/8.html" class="py-2 d-block">Hangrögzítő megoldások</a></li>
+          <li><a href="services/9.html" class="py-2 d-block">Hálózati megoldások </a></li>
+          <li><a href="services/10.html" class="py-2 d-block">Backup-rendszer kialakítása</a></li>
+          <li><a href="services/11.html" class="py-2 d-block">Pályázati támogatás</a></li>
         </ul>
       </div>
       <div class="grid-item">
@@ -195,6 +188,7 @@
 
   <script src="js/main.js"></script>
   <script defer src="js/all.js"></script>
+  <script>AOS.init();</script>
 </body>
 
 </html>

@@ -107,6 +107,7 @@ a:hover {
 .card {
     border-radius: 10px;
     padding: 5px; 
+    color: #203d67;
 }
 
 .card:hover {
@@ -122,6 +123,10 @@ a:hover {
     .flex-item {
         flex-basis: 100%
     }
+
+    .brand-text {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -130,6 +135,9 @@ a:hover {
         flex-basis: 45%
     }
     
+    .brand-text {
+        display: block;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -146,6 +154,9 @@ a:hover {
 
     .grid-item-copyright {
         grid-column: 1 / 4;
-        text-align: center;
+    }
+
+    .brand-text {
+        display: block;
     }
 }
