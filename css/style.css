@@ -79,6 +79,16 @@ a:hover {
 }
 
 /* Header */
+.ftco-header {
+    background: #315eff;
+    position: relative;
+    padding: 2em 0;
+}
+
+.ftco-header a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .header-text {
     color: #315eff;
     font-size: 60px;
@@ -108,6 +118,7 @@ a:hover {
     border-radius: 10px;
     padding: 5px; 
     color: #203d67;
+    cursor:pointer;
 }
 
 .card:hover {
