@@ -93,6 +93,9 @@ a:hover {
     color: #315eff;
     font-size: 60px;
 }
+.brand-text {
+    display: none;
+}
 
 /* Footer */
 .ftco-footer {
@@ -119,6 +122,7 @@ a:hover {
     padding: 5px; 
     color: #203d67;
     cursor:pointer;
+    width: 100%;
 }
 
 .card:hover {
@@ -128,11 +132,10 @@ a:hover {
     color: white;
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .flex-item {
-        flex-basis: 100%
+        flex-basis: 100%;
     }
 
     .brand-text {
@@ -147,7 +150,7 @@ a:hover {
     }
     
     .brand-text {
-        display: block;
+        display: none;
     }
 }
 
